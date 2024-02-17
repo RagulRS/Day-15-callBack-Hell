@@ -1,0 +1,51 @@
+body{
+    
+    
+    background-image: url('https://img.freepik.com/free-vector/decorative-tricolor-indian-flag-theme-texture_1055-7757.jpg?w=740&t=st=1708170161~exp=1708170761~hmac=bf384a4ec19e79d02274a898ea9fa00b0737d03a74ff6e1232302038a101ea32');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+   
+
+    
+}
+
+h1{
+    background: linear-gradient(to right, #fad84f, #acf687);
+   text-align: center;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+
+.container{
+    
+    height: 100vh;
+    display: flex;
+    padding-bottom: 75px;
+    align-items: center;
+    justify-content: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-style: italic;
+  font-optical-sizing:auto;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  
+ }
+
+ .btn{
+    height: 68px;
+    width: 68px;
+    background-color: #40a0ea;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset 5px 5px 12px #ffffff;
+                border:none;
+                border-radius: 50px;
+                margin: 8px;
+                font-size:16px;
+              font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .btn:hover{
+    cursor: pointer;
+    background-color: rgb(196, 231, 145);
+ }
